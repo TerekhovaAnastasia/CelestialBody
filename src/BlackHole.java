@@ -1,7 +1,7 @@
 public class BlackHole extends CelestialBody {
     // спин 0<=a*<=1
     private final double spin;
-    // заряд 0<=Q*<=1
+    // заряд 0<=Q<=1
     private final double charge;
 
     public BlackHole(String name, double mass, double age, double distance,
