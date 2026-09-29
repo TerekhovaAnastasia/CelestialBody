@@ -1,0 +1,44 @@
+# Формат строки:
+#   тип;имя;масса(M☉);возраст(млрд лет);расстояние(св. лет);свои поля
+#
+# Свои поля по типам:
+#   star      -> radius(км);luminosity(L☉);spectralClass
+#   planet    -> radius(км);orbitalPeriod(лет);hasAtmosphere(true/false)
+#   blackhole -> spin(0..1);charge(0..1)
+
+
+# звезды
+star;Sun;1.0;4.6;0.000016;696340;1.0;G2V
+star;Sirius A;2.06;0.24;8.6;1191000;25.4;A1V
+star;Proxima Centauri;0.122;4.85;4.24;107000;0.0017;M5.5Ve
+star;Betelgeuse;16.5;0.008;548;764000000;126000;M2Iab
+star;Rigel;21.0;0.008;863;54300000;120000;B8Ia
+star;Vega;2.135;0.455;25.04;1900000;40.12;A0V
+star;Alpha Centauri A;1.079;5.3;4.37;834000;1.519;G2V
+star;Alpha Centauri B;0.909;5.3;4.37;602000;0.445;K1V
+star;Polaris;5.4;0.07;433;27600000;1260;F7Ib
+star;Antares;12.4;0.012;550;481000000;75900;M1.5Iab
+star;Altair;1.86;1.2;16.73;1270000;10.6;A7V
+star;Barnard's Star;0.144;10.0;5.96;137000;0.0035;M4V
+
+# планеты
+planet;Earth;3.003e-6;4.54;0.000016;6371;1.0;true
+planet;Jupiter;9.54e-4;4.6;0.000082;69911;11.86;true
+planet;Mars;3.227e-7;4.6;0.000008;3389;1.88;true
+planet;Venus;2.447e-6;4.5;0.000004;6052;0.615;true
+planet;Mercury;1.66e-7;4.5;0.000009;2440;0.241;false
+planet;Saturn;2.858e-4;4.6;0.000132;58232;29.45;true
+planet;Uranus;4.366e-5;4.6;0.000268;25362;84.02;true
+planet;Neptune;5.15e-5;4.6;0.000435;24622;164.8;true
+planet;Kepler-452b;1.59e-3;6.0;1400;9710;384.8;true
+planet;Proxima Centauri b;4.1e-6;4.85;4.24;7100;11.18;false
+
+# черные дыры
+blackhole;Sagittarius A*;4.3e6;13.0;26000;0.90;0.0
+blackhole;Cygnus X-1;21.2;0.005;6070;0.95;0.0
+blackhole;M87*;6.5e9;13.0;53500000;0.90;0.0
+blackhole;V404 Cygni;9.0;0.01;7870;0.70;0.0
+blackhole;GRO J1655-40;6.3;0.008;11000;0.75;0.0
+blackhole;A0620-00;6.6;0.01;3400;0.60;0.0
+blackhole;XTE J1118+480;8.5;0.01;6200;0.85;0.0
+blackhole;GX 339-4;9.2;0.01;26000;0.94;0.0

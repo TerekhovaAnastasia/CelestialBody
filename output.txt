@@ -1,0 +1,132 @@
+"C:\Program Files\Java\jdk-21\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2026.2.2\lib\idea_rt.jar=55310" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\LENOVO\IntellijIdeaProject\CelestialBody\out\production\CelestialBody Main
+
+======================================================================
+  исходный список
+======================================================================
+Star[name=Sun, mass=1,00 M☉, age=4,60 Gyr, distance=0,0 ly] {R=6,96e+05 km, L=1,00 L☉, class=G2V}
+Star[name=Sirius A, mass=2,06 M☉, age=0,24 Gyr, distance=8,6 ly] {R=1,19e+06 km, L=25,4 L☉, class=A1V}
+Star[name=Proxima Centauri, mass=0,122 M☉, age=4,85 Gyr, distance=4,2 ly] {R=1,07e+05 km, L=0,00170 L☉, class=M5.5Ve}
+Star[name=Betelgeuse, mass=16,5 M☉, age=0,01 Gyr, distance=548,0 ly] {R=7,64e+08 km, L=1,26e+05 L☉, class=M2Iab}
+Star[name=Rigel, mass=21,0 M☉, age=0,01 Gyr, distance=863,0 ly] {R=5,43e+07 km, L=1,20e+05 L☉, class=B8Ia}
+Star[name=Vega, mass=2,14 M☉, age=0,46 Gyr, distance=25,0 ly] {R=1,90e+06 km, L=40,1 L☉, class=A0V}
+Star[name=Alpha Centauri A, mass=1,08 M☉, age=5,30 Gyr, distance=4,4 ly] {R=8,34e+05 km, L=1,52 L☉, class=G2V}
+Star[name=Alpha Centauri B, mass=0,909 M☉, age=5,30 Gyr, distance=4,4 ly] {R=6,02e+05 km, L=0,445 L☉, class=K1V}
+Star[name=Polaris, mass=5,40 M☉, age=0,07 Gyr, distance=433,0 ly] {R=2,76e+07 km, L=1,26e+03 L☉, class=F7Ib}
+Star[name=Antares, mass=12,4 M☉, age=0,01 Gyr, distance=550,0 ly] {R=4,81e+08 km, L=7,59e+04 L☉, class=M1.5Iab}
+Star[name=Altair, mass=1,86 M☉, age=1,20 Gyr, distance=16,7 ly] {R=1,27e+06 km, L=10,6 L☉, class=A7V}
+Star[name=Barnard's Star, mass=0,144 M☉, age=10,00 Gyr, distance=6,0 ly] {R=1,37e+05 km, L=0,00350 L☉, class=M4V}
+Planet[name=Earth, mass=3,00e-06 M☉, age=4,54 Gyr, distance=0,0 ly] {R=6,37e+03 km, T_orbit=1,00 yr, atmosphere=true}
+Planet[name=Jupiter, mass=0,000954 M☉, age=4,60 Gyr, distance=0,0 ly] {R=6,99e+04 km, T_orbit=11,86 yr, atmosphere=true}
+Planet[name=Mars, mass=3,23e-07 M☉, age=4,60 Gyr, distance=0,0 ly] {R=3,39e+03 km, T_orbit=1,88 yr, atmosphere=true}
+Planet[name=Venus, mass=2,45e-06 M☉, age=4,50 Gyr, distance=0,0 ly] {R=6,05e+03 km, T_orbit=0,62 yr, atmosphere=true}
+Planet[name=Mercury, mass=1,66e-07 M☉, age=4,50 Gyr, distance=0,0 ly] {R=2,44e+03 km, T_orbit=0,24 yr, atmosphere=false}
+Planet[name=Saturn, mass=0,000286 M☉, age=4,60 Gyr, distance=0,0 ly] {R=5,82e+04 km, T_orbit=29,45 yr, atmosphere=true}
+Planet[name=Uranus, mass=4,37e-05 M☉, age=4,60 Gyr, distance=0,0 ly] {R=2,54e+04 km, T_orbit=84,02 yr, atmosphere=true}
+Planet[name=Neptune, mass=5,15e-05 M☉, age=4,60 Gyr, distance=0,0 ly] {R=2,46e+04 km, T_orbit=164,80 yr, atmosphere=true}
+Planet[name=Kepler-452b, mass=0,00159 M☉, age=6,00 Gyr, distance=1400,0 ly] {R=9,71e+03 km, T_orbit=384,80 yr, atmosphere=true}
+Planet[name=Proxima Centauri b, mass=4,10e-06 M☉, age=4,85 Gyr, distance=4,2 ly] {R=7,10e+03 km, T_orbit=11,18 yr, atmosphere=false}
+BlackHole[name=Sagittarius A*, mass=4,30e+06 M☉, age=13,00 Gyr, distance=26000,0 ly] {r_s=1,27e+07 km, a*=0,90, Q=0,00}
+BlackHole[name=Cygnus X-1, mass=21,2 M☉, age=0,01 Gyr, distance=6070,0 ly] {r_s=62,5 km, a*=0,95, Q=0,00}
+BlackHole[name=M87*, mass=6,50e+09 M☉, age=13,00 Gyr, distance=53500000,0 ly] {r_s=1,92e+10 km, a*=0,90, Q=0,00}
+BlackHole[name=V404 Cygni, mass=9,00 M☉, age=0,01 Gyr, distance=7870,0 ly] {r_s=26,6 km, a*=0,70, Q=0,00}
+BlackHole[name=GRO J1655-40, mass=6,30 M☉, age=0,01 Gyr, distance=11000,0 ly] {r_s=18,6 km, a*=0,75, Q=0,00}
+BlackHole[name=A0620-00, mass=6,60 M☉, age=0,01 Gyr, distance=3400,0 ly] {r_s=19,5 km, a*=0,60, Q=0,00}
+BlackHole[name=XTE J1118+480, mass=8,50 M☉, age=0,01 Gyr, distance=6200,0 ly] {r_s=25,1 km, a*=0,85, Q=0,00}
+BlackHole[name=GX 339-4, mass=9,20 M☉, age=0,01 Gyr, distance=26000,0 ly] {r_s=27,1 km, a*=0,94, Q=0,00}
+
+======================================================================
+  сортировка по массе (возрастание)
+======================================================================
+ 1. Planet[name=Mercury, mass=1,66e-07 M☉, age=4,50 Gyr, distance=0,0 ly] {R=2,44e+03 km, T_orbit=0,24 yr, atmosphere=false}
+ 2. Planet[name=Mars, mass=3,23e-07 M☉, age=4,60 Gyr, distance=0,0 ly] {R=3,39e+03 km, T_orbit=1,88 yr, atmosphere=true}
+ 3. Planet[name=Venus, mass=2,45e-06 M☉, age=4,50 Gyr, distance=0,0 ly] {R=6,05e+03 km, T_orbit=0,62 yr, atmosphere=true}
+ 4. Planet[name=Earth, mass=3,00e-06 M☉, age=4,54 Gyr, distance=0,0 ly] {R=6,37e+03 km, T_orbit=1,00 yr, atmosphere=true}
+ 5. Planet[name=Proxima Centauri b, mass=4,10e-06 M☉, age=4,85 Gyr, distance=4,2 ly] {R=7,10e+03 km, T_orbit=11,18 yr, atmosphere=false}
+ 6. Planet[name=Uranus, mass=4,37e-05 M☉, age=4,60 Gyr, distance=0,0 ly] {R=2,54e+04 km, T_orbit=84,02 yr, atmosphere=true}
+ 7. Planet[name=Neptune, mass=5,15e-05 M☉, age=4,60 Gyr, distance=0,0 ly] {R=2,46e+04 km, T_orbit=164,80 yr, atmosphere=true}
+ 8. Planet[name=Saturn, mass=0,000286 M☉, age=4,60 Gyr, distance=0,0 ly] {R=5,82e+04 km, T_orbit=29,45 yr, atmosphere=true}
+ 9. Planet[name=Jupiter, mass=0,000954 M☉, age=4,60 Gyr, distance=0,0 ly] {R=6,99e+04 km, T_orbit=11,86 yr, atmosphere=true}
+10. Planet[name=Kepler-452b, mass=0,00159 M☉, age=6,00 Gyr, distance=1400,0 ly] {R=9,71e+03 km, T_orbit=384,80 yr, atmosphere=true}
+11. Star[name=Proxima Centauri, mass=0,122 M☉, age=4,85 Gyr, distance=4,2 ly] {R=1,07e+05 km, L=0,00170 L☉, class=M5.5Ve}
+12. Star[name=Barnard's Star, mass=0,144 M☉, age=10,00 Gyr, distance=6,0 ly] {R=1,37e+05 km, L=0,00350 L☉, class=M4V}
+13. Star[name=Alpha Centauri B, mass=0,909 M☉, age=5,30 Gyr, distance=4,4 ly] {R=6,02e+05 km, L=0,445 L☉, class=K1V}
+14. Star[name=Sun, mass=1,00 M☉, age=4,60 Gyr, distance=0,0 ly] {R=6,96e+05 km, L=1,00 L☉, class=G2V}
+15. Star[name=Alpha Centauri A, mass=1,08 M☉, age=5,30 Gyr, distance=4,4 ly] {R=8,34e+05 km, L=1,52 L☉, class=G2V}
+16. Star[name=Altair, mass=1,86 M☉, age=1,20 Gyr, distance=16,7 ly] {R=1,27e+06 km, L=10,6 L☉, class=A7V}
+17. Star[name=Sirius A, mass=2,06 M☉, age=0,24 Gyr, distance=8,6 ly] {R=1,19e+06 km, L=25,4 L☉, class=A1V}
+18. Star[name=Vega, mass=2,14 M☉, age=0,46 Gyr, distance=25,0 ly] {R=1,90e+06 km, L=40,1 L☉, class=A0V}
+19. Star[name=Polaris, mass=5,40 M☉, age=0,07 Gyr, distance=433,0 ly] {R=2,76e+07 km, L=1,26e+03 L☉, class=F7Ib}
+20. BlackHole[name=GRO J1655-40, mass=6,30 M☉, age=0,01 Gyr, distance=11000,0 ly] {r_s=18,6 km, a*=0,75, Q=0,00}
+21. BlackHole[name=A0620-00, mass=6,60 M☉, age=0,01 Gyr, distance=3400,0 ly] {r_s=19,5 km, a*=0,60, Q=0,00}
+22. BlackHole[name=XTE J1118+480, mass=8,50 M☉, age=0,01 Gyr, distance=6200,0 ly] {r_s=25,1 km, a*=0,85, Q=0,00}
+23. BlackHole[name=V404 Cygni, mass=9,00 M☉, age=0,01 Gyr, distance=7870,0 ly] {r_s=26,6 km, a*=0,70, Q=0,00}
+24. BlackHole[name=GX 339-4, mass=9,20 M☉, age=0,01 Gyr, distance=26000,0 ly] {r_s=27,1 km, a*=0,94, Q=0,00}
+25. Star[name=Antares, mass=12,4 M☉, age=0,01 Gyr, distance=550,0 ly] {R=4,81e+08 km, L=7,59e+04 L☉, class=M1.5Iab}
+26. Star[name=Betelgeuse, mass=16,5 M☉, age=0,01 Gyr, distance=548,0 ly] {R=7,64e+08 km, L=1,26e+05 L☉, class=M2Iab}
+27. Star[name=Rigel, mass=21,0 M☉, age=0,01 Gyr, distance=863,0 ly] {R=5,43e+07 km, L=1,20e+05 L☉, class=B8Ia}
+28. BlackHole[name=Cygnus X-1, mass=21,2 M☉, age=0,01 Gyr, distance=6070,0 ly] {r_s=62,5 km, a*=0,95, Q=0,00}
+29. BlackHole[name=Sagittarius A*, mass=4,30e+06 M☉, age=13,00 Gyr, distance=26000,0 ly] {r_s=1,27e+07 km, a*=0,90, Q=0,00}
+30. BlackHole[name=M87*, mass=6,50e+09 M☉, age=13,00 Gyr, distance=53500000,0 ly] {r_s=1,92e+10 km, a*=0,90, Q=0,00}
+
+======================================================================
+  проверка equals
+======================================================================
+a.equals(b) = true  (ожидаем true)
+a.equals(c) = false  (ожидаем false)
+
+======================================================================
+  звезды массой больше 5 M☉
+======================================================================
+Star[name=Polaris, mass=5,40 M☉, age=0,07 Gyr, distance=433,0 ly] {R=2,76e+07 km, L=1,26e+03 L☉, class=F7Ib}
+Star[name=Antares, mass=12,4 M☉, age=0,01 Gyr, distance=550,0 ly] {R=4,81e+08 km, L=7,59e+04 L☉, class=M1.5Iab}
+Star[name=Betelgeuse, mass=16,5 M☉, age=0,01 Gyr, distance=548,0 ly] {R=7,64e+08 km, L=1,26e+05 L☉, class=M2Iab}
+Star[name=Rigel, mass=21,0 M☉, age=0,01 Gyr, distance=863,0 ly] {R=5,43e+07 km, L=1,20e+05 L☉, class=B8Ia}
+
+======================================================================
+  планеты с атмосферой
+======================================================================
+Planet[name=Mars, mass=3,23e-07 M☉, age=4,60 Gyr, distance=0,0 ly] {R=3,39e+03 km, T_orbit=1,88 yr, atmosphere=true}
+Planet[name=Venus, mass=2,45e-06 M☉, age=4,50 Gyr, distance=0,0 ly] {R=6,05e+03 km, T_orbit=0,62 yr, atmosphere=true}
+Planet[name=Earth, mass=3,00e-06 M☉, age=4,54 Gyr, distance=0,0 ly] {R=6,37e+03 km, T_orbit=1,00 yr, atmosphere=true}
+Planet[name=Uranus, mass=4,37e-05 M☉, age=4,60 Gyr, distance=0,0 ly] {R=2,54e+04 km, T_orbit=84,02 yr, atmosphere=true}
+Planet[name=Neptune, mass=5,15e-05 M☉, age=4,60 Gyr, distance=0,0 ly] {R=2,46e+04 km, T_orbit=164,80 yr, atmosphere=true}
+Planet[name=Saturn, mass=0,000286 M☉, age=4,60 Gyr, distance=0,0 ly] {R=5,82e+04 km, T_orbit=29,45 yr, atmosphere=true}
+Planet[name=Jupiter, mass=0,000954 M☉, age=4,60 Gyr, distance=0,0 ly] {R=6,99e+04 km, T_orbit=11,86 yr, atmosphere=true}
+Planet[name=Kepler-452b, mass=0,00159 M☉, age=6,00 Gyr, distance=1400,0 ly] {R=9,71e+03 km, T_orbit=384,80 yr, atmosphere=true}
+
+======================================================================
+  черные дыры массой > 1e6 M☉
+======================================================================
+BlackHole[name=Sagittarius A*, mass=4,30e+06 M☉, age=13,00 Gyr, distance=26000,0 ly] {r_s=1,27e+07 km, a*=0,90, Q=0,00}
+BlackHole[name=M87*, mass=6,50e+09 M☉, age=13,00 Gyr, distance=53500000,0 ly] {r_s=1,92e+10 km, a*=0,90, Q=0,00}
+
+======================================================================
+  классификация по типу
+======================================================================
+BlackHole: 8
+Planet: 10
+Star: 12
+
+======================================================================
+  классификация по спектральному классу
+======================================================================
+Класс A: 3
+Класс B: 1
+Класс F: 1
+Класс G: 2
+Класс K: 1
+Класс M: 4
+
+======================================================================
+  радиусы шварцшильда у черных дыр
+======================================================================
+GRO J1655-40     r_s = 18,6 км
+A0620-00         r_s = 19,5 км
+XTE J1118+480    r_s = 25,1 км
+V404 Cygni       r_s = 26,6 км
+GX 339-4         r_s = 27,1 км
+Cygnus X-1       r_s = 62,5 км
+Sagittarius A*   r_s = 1,27e+07 км
+M87*             r_s = 1,92e+10 км
+
+Process finished with exit code 0
